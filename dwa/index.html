@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+<meta charset="utf-8">
+  <title><Бандуровский Павел ДЗ 1></title>
+  <link rel="stylesheet" href="./styles.css" />
+ </head>
+ <body>
+  <header>
+    <div class="container">
+      <div class="head">
+        <img src="image.png"/>
+        <p class="title">Бандуровский Павел</p>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <div class="nav-menu">
+        <ul class="navigation">
+          <li><a href="#">один</a></li>
+          <li><a href="#">два</a></li>
+          <li><a href="#">три</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="content">
+    <div class="container">
+  <ol id="spisokssilok">
+      <li>
+        <a href=”//www.example.com”>Абсолютная гиперссылка</a>
+      </li>
+      <li>
+        <a href=”https://example.com”>Ссылка в протоколе https</a>
+      </li>
+      <li>
+        <a href=“ftp://example.com/files”>Файл без авторизации</a>
+      </li>
+      <li>
+        <a href=“ftp://bandurovskiy:password111@example.com/files“>Файл c авторизацией</a>
+      </li>
+
+      <li>
+        <a href="#fragment">Фрагмент сайта example</a>
+      </li>
+      
+      <li>
+        <a href="#spisokssilok">Фрагмент списка сайта example</a>
+      </li>
+      <li>
+        <a href="https://example.com/main?key=fiinvddsscket8k&id=53257">Ссылка с двумя параметрами URL</a>
+      </li>
+      <li>
+          <ul>
+            <li>
+              <a href="https://example.com" title="stranitsaodin">Страница 1</a>
+            </li>
+            <li>
+              <a href="https://example.com" title="stranitsadwa">Страница 2</a>
+            </li>
+            <li>
+              <a href="https://example.com" title="stranitsatri">Страница 3</a>
+            </li>
+          </ul>
+      </li>
+      <li>
+        <a>Ссылка без href</a>
+      </li>
+      <li>
+        <a href="">Ссылка с пустым href</a>
+      </li>
+      <li>
+        <a href="example.com" rel="nofollow">Запрещен переход поисковикам</a>
+      </li>
+      <li>
+        <a href="example.com" rel="noindex">Запрещена индексация</a>
+      </li>
+      <li>
+        <p>Контекстная <a href="//www.example.com">ссылка </a>в тексте абзаца</p>
+      </li>
+      <li>
+        <a href="https://example.com"
+          ><img src="image.jpg" alt="Фото-ссылка"
+        /></a>
+      </li>
+
+
+
+
+      <li>
+        Ссылка областей картинки
+        <img src="image.jpg" usemap="#image-map" alt="Ссылка областей" />
+
+        <map name="image-map">
+      <area coords="1162,1142,273,1078,277,604,1138,613" shape="poly">
+      <area coords="1304,950,696" shape="circle">
+</map>
+      </li>
+  <li>
+    <a href="./main.html">Относительная ссылка</a>
+  </li>
+  <li>
+    <a href="./about/main.html" title="Example" target="_blank">Ссылка на страницу в каталоге about</a>
+  </li>
+  <li>
+    <a href="../about" title="Example" target="_blank">Ссылка на страницу в каталоге уровнем выше</a>
+  </li>
+  <li>
+    <a href="../../about" title="Example" target="_blank">Ссылка на страницу в каталоге двумя уровнями выше </a>
+  </li>
+  <li>
+    <a href="/" title="Example" target="_blank">Сокращенная ссылка на главную</a>
+  </li>
+  <li>
+    <a href="/inside.com" title="Example" target="_blank">Сокращенная на внутреннюю</a>
+  </li>
+</ol>
+
+<table class="main-table">
+  <tr>
+    <th>Раз</th>
+    <th>Два</th>
+    <th>Три</th>
+  </tr>
+  <tr>
+    <td colspan="3">Все три вместе</td>
+  </tr>
+  <tr>
+    <td>лево</td>
+    <td>середина</td>
+    <td>право</td>
+  </tr>
+  <tr>
+    <td>лево</td>
+    <td>середина</td>
+    <td>право</td>
+  </tr>
+  <tr>
+    <td>лево</td>
+    <td>середина</td>
+    <td>право</td>
+  </tr>
+</table>
+<hr />
+
+<form id="contractforma" method="POST" action="/">
+      <label> <input type="text" placeholder="Имя" /><br /></label>
+      <label><input type="email" placeholder="E-mail" /><br /></label>
+      <label><input type="date" placeholder="Дата"/><br /></label>
+      <label>
+        Пол
+        <input type="radio" name="gender" value="male" />Мужской
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female" />Женский
+      </label>
+      <br />
+      <label>
+        Кол-во конечностей
+        <input type="radio" name="kon" value="1" />1
+      </label>
+      <label> <input type="radio" name="kon" value="2" />2 </label>
+      <label> <input type="radio" name="kon" value="more" />3 и более </label>
+      <br />
+      <label>
+        Сверхспособность<br />
+        <select name="arg[]" multiple="multiple">
+          <option value="me">Бессмертие</option>
+          <option value="go">Прохождение сквозь стены</option>
+          <option value="fly">Левитация</option>
+        </select> </label
+      ><br />
+      <label> Биография <textarea name="O"></textarea></label><br />
+      <label><input type="checkbox" />С контрактом ознакомлен</label><br />
+      <button type="submit">Отправить</button>
+</form>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer"><p>(c) Бандуровский Павел 2021</p></div>
+    </div>
+  </footer>
+</body>
+</html>
