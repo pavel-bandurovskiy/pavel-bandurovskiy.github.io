@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Павел Бандуровский 6 задание</title>
+    <style>
+      input {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <form>
+        Какое количество товара?
+        <input type="text" id="kol" placeholder="Количество" /><br />
+        Какой тип товара?
+        <select id="type">
+          <option value="1" selected>Первый тип </option>
+          <option value="2">Второй тип</option>
+          <option value="3">Третий тип</option></select
+        ><br />
+        <div id="radios">
+          <input type="radio" name="option" value="1" />Первая опция
+          <input type="radio" name="option" value="2" />Вторая опция 
+          <input type="radio" name="option" value="3" />Третья опция <br />
+        </div>
+        <div id="checkbox">
+          <input type="checkbox" id="checkbox-check" value="15" /> Чек-бокс
+        </div>
+      </form>
+      Итоговая стоимость: <input type="text" id="total" disabled />
+    </div>
+    <script src="JS.js"></script>
+  </body>
+</html>
