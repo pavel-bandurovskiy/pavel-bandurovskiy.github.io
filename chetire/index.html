@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бандуровский Павел ДЗ 4</title>
+</head>
+
+
+
+<body>
+    <div class="fon">
+        <header>
+        	<div class="container-fluid">
+      		<div class="container">
+        	<div class="row">
+          	<div class="img-responsive col-xs-1">
+            	<img id="logo" src="image.png" class="p-2">
+          	</div>
+          	<div class="col-xs-3">
+            	<div id="logotxt" class="p-1"><h1>Бандуровский Павел<h1></div>
+          	</div></div></div></div>
+</header>
+    
+    <nav class="container navbar my-3 ss3 col-md-8   text-center">
+        <div class="col-sm-12 col-lg-4"><a class="nav-link" href="https://www.kfc.ru/">один</a></div>
+        <div class="col-sm-12 col-lg-4"><a class="nav-link" href="https://www.kfc.ru/foodorder">два</a></div>
+        <div class="col-sm-12 col-lg-4"><a class="nav-link" href="https://www.kfc.ru/coupons">три</a></div>
+    </nav>
+    <div class="d-flex flex-column">
+        <div class="container ss3 p-3 mb-3 col-md-8 order-0 order-md-0">
+           <ol>            
+    <li><a id="top">Вверх страницы</a></li>
+	<li><a href="http://example.com">Абсолютная гиперссылка</a></li>
+	<li><a href="https://example.com">Ссылка в протоколе https</a></li>
+	<li><a href="ftp://example.com/Manhattan.txt">Файл без авторизации</a></li>
+	<li><a href="ftp://papabear:linkoln@example.com/Pacific.txt">Файл с афторизацией</a></li>
+	<li><a href="http://kubsu.ru/ru/fktipm#main-content">Фрагмент сайта example</a></li>
+	<li><a href="#top">Фрагмент списка сайта example</a></li>
+	<li><a href="https://example.com?name=ivan&age=18">Ссылка с двумя параметрами в URL</a></li>
+	<li><ul>
+	<li><a href="history.html" title="История создания танка">Страница 1</a></li>
+	<li><a href="gun.html" title="Главное орудие">Страница 2</a></li>
+	<li><a href="enginie.html" title="Двигатель">Страница 3</a></li>
+	</ul></li>
+	<li><a>Ссылка без href</a></li>
+	<li><a href="">Ссылка с пустым href</a></li>
+	<li><a href="http://example.com" rel="nofollow">Запрещен переход поисковикам</a></li>
+        <li><a href="http://example.com" rel="noindex">Запрещена индексация</a></li>
+	<li><p> Контекстная <a href="//www.example.com">ссылка </a>в тексте абзаца</p></li>
+	<li>
+        <a href="https://example.com"
+          ><img src="image.jpg" width ="200px" alt="Фото-ссылка"
+        /></a>
+      </li>
+
+
+
+
+      <li>
+        Ссылка областей картинки
+        <img src="image.jpg" width ="200px" usemap="#image-map" alt="Ссылка областей" />
+
+        <map name="image-map">
+      <area coords="1162,1142,273,1078,277,604,1138,613" shape="poly">
+      <area coords="1304,950,696" shape="circle">
+</map>
+      </li>
+      <li><a href="./main.html">Относительная ссылка</a></li>
+        <li><a href="../about">Ссылка на страницу в каталоге about</a></li>
+        <li><a href="../qestions.html">Ссылка на страницу в каталоге уровнем выше </a></li>
+        <li><a href="../../about">Ссылка на страницу в каталоге двумя уровнями выше</a></li>
+        <li><a href="/">Сокращенная ссылка на главную</a></li>
+        <li><a href="/inside.com">Сокращенная на внутреннюю</a></li>
+            </ol>
+        </div>
+        <div class="container ss3 p-3 mb-3 col-md-8  order-2 order-md-1">
+            <table class="table table-responsive-sm mx-auto px-0 text-center">
+               <thead>
+                <tr>
+                    <th>Раз</th>
+                    <th>Два</th>
+                    <th>Три</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr id="nch">
+                      <td  cosplain="3">все три вместе</td>
+                    </tr>
+                    <tr id="ch">
+                      <td>лево</td>
+                      <td>середина</td>
+                      <td>право</td>
+                    </tr>
+                
+                <tr class="nch">
+                    <td>лево</td>
+                    <td>середина</td>
+                    <td>право</td>
+                </tr>
+                <tr class="ch">
+                    <td>лево</td>
+                    <td>середина</td>
+                    <td>право</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <div class="container ss3 p-3 mb-3 col-md-8  order-1 order-md-2">
+            <form method="POST" id="form">
+                <label>
+          <br />
+          <input name="field-name"
+          placeholder="Имя" />
+        </label><br />
+                <label>
+          <br />
+          <input name="field-email" placeholder="E-mail" type="email">
+        </label><br />
+                <label>
+          <br />
+          <input name="field-date"
+            value="2021-12-6"
+            type="date" />
+        </label><br /> Пол:
+                <br />
+                <label><input type="radio" checked="checked"
+          name="radio-sex" value="Значение1" />
+          Мужской</label>
+                <label><input type="radio"
+          name="radio-sex" value="Значение2" />
+          Женский</label><br /> Кол-во конечностей:<br />
+                <label><input type="radio" checked="checked"
+                name="radio-limb" value="Значение1" />
+                1</label>
+                <label><input type="radio"
+                name="radio-limb" value="Значение2" />
+                2</label>
+                <label><input type="radio"
+                name="radio-limb" value="Значение3" />
+                3+</label>
+                  Ваши сверхспособности:<br />
+                  <select name="superpower" multiple=multiple>
+                      <option value="Value_1">бессмертие</option>
+                      <option value="Value_2">прохождение сквозь стены</option>
+                      <option value="Value_4">левитация</option>
+                  </select>
+              </label><br />
+
+                <label>
+                  Биография<br />
+                  <textarea name="BIO"></textarea>
+                  <br />
+              </label>
+              <br />
+                <label>
+                  <input type="checkbox" checked=checked>С контрактом ознакомлен<br />
+              </label>
+              <br />
+                <input type="submit" value="Отправить" />
+            </form>
+        </div>
+    </div>
+    <footer class="container-fluid flex-wrap align-content-center text-center">
+            <h2>(c)Бандуровский Павел 2021</h2>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        </div>
+    </body>
+
+
+</html>
